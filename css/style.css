@@ -1,0 +1,53 @@
+body {
+    background-image:url(../imgs/ed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    padding: 10px;
+    font-size: 2em;
+    font-family: monospace;
+    font-family: 'Bungee Inline', cursive;
+}
+#meow{
+    color: orangered;
+}
+
+#woof{
+    color:blue;
+}
+
+section {
+    position: relative;
+    border: 2px solid transparent;
+    width: 240px;
+    height: auto;
+    left:22%;
+    text-align: center;
+}
+/*
+.ng-hide {
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  top:-200px;
+  left: 200px;
+}
+*/
+
+div{
+    position: relative;
+    top:300px;
+    left:40%;
+    width: 450px;
+    height: auto;
+}
+
+img{
+    position: relative;
+    left:10%;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+}

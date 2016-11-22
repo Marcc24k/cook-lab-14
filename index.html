@@ -2,16 +2,22 @@
 <html>
 <head>
   <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Delius+Unicase" rel="stylesheet">
+
   <title>CatDog</title>
 </head>
 <body ng-app="catDogMod">
 
-  <a href="#/cat">Meow</a>
-  <a href="#/dog">Woof</a>
-
+    <div>
+<section ng-app="anime">
+  <a id="meow" href="#/cat">Meow</a>
+  <a id="woof" href="#/dog">Woof</a>
+</section>
 
   <ng-view></ng-view>
-
+</div>
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
       <script type="text/javascript" src="js/script.js"></script>
